@@ -19,4 +19,13 @@ router.post("/api/notes", (req, res) => {
   res.json(noteData);
 });
 
-
+// Delete Note by unique ID
+router.delete("/api/notes/:id", (req, res) => {
+  const deleteID = req.params.id;
+  // ID record to delete
+  for (let i = 0; i < noteData.length; i++) {
+    if (noteData[i].id === deleteID) {
+      noteData.splice(i, 1);
+    }
+  }
+  
