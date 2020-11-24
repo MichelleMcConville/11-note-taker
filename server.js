@@ -28,3 +28,17 @@ app.use(express.static("public"));
 // Unwrapping client data to make it readable for server to use. (stored in req.body)
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// ================================================================================
+// ROUTER
+// The below points Express server to a series of "route" files/paths.
+// ================================================================================
+
+// Includes apiRoute feature into the server
+const apiRoutes = require("./routes/apiRoutes");
+app.use(apiRoutes);
+
+// Includes htmlRoute feature into the server
+const htmlRoutes = require("./routes/htmlRoutes");
+app.use(htmlRoutes);
+
