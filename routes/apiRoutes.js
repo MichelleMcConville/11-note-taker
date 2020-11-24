@@ -28,4 +28,12 @@ router.delete("/api/notes/:id", (req, res) => {
       noteData.splice(i, 1);
     }
   }
-  
+  // Rewrite to DB file
+  fs.writeFile("./db/db.json", JSON.stringify(noteData), (err) => {
+    if (err) throw err;
+  });
+  deleteData = noteData;
+  res.json(deleteData);
+});
+
+module.exports = router;
