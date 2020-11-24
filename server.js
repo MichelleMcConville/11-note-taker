@@ -14,7 +14,7 @@ const express = require("express");
 const app = express();
 
 // Sets an initial port used later in the listener
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
 
 // ==============================================================================
 // MIDDLEWARE - f(x)s executed during the lifecycle of a request to the Express
