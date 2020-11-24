@@ -9,3 +9,12 @@ router.get("/notes", (req, res) => res.sendFile(path.join(__dirname, "../public/
 // router.get("/notes", (req, res) => {
 //   res.sendFile(path.join(__dirname, "../public/notes.html"));
 // });
+
+// HTML GET Request: Responds with the index.html & all other file(s)
+router.get("*", (req, res) => res.sendFile(path.join(__dirname, "../public/index.html")));
+
+// router.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../public/index.html"));
+// });
+
+module.exports = router;
