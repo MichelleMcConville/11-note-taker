@@ -9,7 +9,7 @@
 
 ## Description
 
-A simple Node CLI application that can be used to write, save, and delete notes
+A simple application that can be used to write, save, and delete notes
 
 ## Table of Contents ✨
 
