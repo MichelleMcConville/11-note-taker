@@ -26,7 +26,7 @@ A simple application that can be used to write, save, and delete notes
 * [Questions](#questions)
 * [License](#license)
 
-## Installation
+## Installation 🛠️
 
 ```node
 Type the following npm install commands one at a time:
