@@ -19,18 +19,18 @@ A simple application that can be used to write, save, and delete notes
 
 ## Table of Contents ✨
 
-* [Installation 🛠️](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
-* [License](#license)
+* [🛠️ Installation](#installation)
+* [⚙️ Usage](#usage)
+* [🤝 Contributing](#contributing)
+* [✅ Tests](#tests)
+* [❓ Questions](#questions)
+* [📝 License](#license)
 
 ## Installation 🛠️
 
 ```node
-Type the following npm install commands one at a time:
-npm install -y, npm i express, npm i uuid, npm i path
+Type the following npm install commands one at a time in the Integrated Terminal:
+npm install -y, npm i express, npm i path, npm i uuid
 ```
 
 ## Usage ⚙️ <a name="usage"></a>
@@ -38,7 +38,7 @@ npm install -y, npm i express, npm i uuid, npm i path
 `Open in Integrated Terminal`
 
 ```node
-Type the following command to start application:
+Type the following command to start the application:
 npm start
 ```
 
