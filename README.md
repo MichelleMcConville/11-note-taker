@@ -11,16 +11,22 @@
 
 A simple application that can be used to write, save, and delete notes
 
+## Preview
+
+| <div align="center">***Screenshot #1***</div>| <div align="center">***Screenshot #2***</div>|
+| -------------------------------------------- | -------------------------------------------- |
+| ![Demo](./docs/noteTaker400-1.jpg)           | ![SC](./docs/noteTaker400-2.jpg)             |
+
 ## Table of Contents ✨
 
-* [Installation](#installation)
+* [Installation 🛠️](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 * [License](#license)
 
-## Installation 🛠️ <a name="installation"></a>
+## Installation
 
 ```node
 Type the following npm install commands one at a time:
