@@ -13,9 +13,9 @@ A simple application that can be used to write, save, and delete notes
 
 ## Preview
 
-| <div align="center">***Screenshot #1***</div>| <div align="center">***Screenshot #2***</div>|
-| -------------------------------------------- | -------------------------------------------- |
-| ![Demo](./docs/noteTaker400-1.jpg)           | ![SC](./docs/noteTaker400-2.jpg)             |
+| ***Screenshot #1***                | ***Screenshot #2***              |
+| :--------------------------------: | :------------------------------: |
+| ![Demo](./docs/noteTaker400-1.jpg) | ![SC](./docs/noteTaker400-2.jpg) |
 
 ## Table of Contents ✨
 
